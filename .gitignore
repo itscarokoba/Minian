@@ -1,0 +1,13 @@
+# Never commit data or results
+*.avi
+*.mp4
+*.zarr/
+minian_intermediate_*/
+minian_results/
+
+# Notebook / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*_executed.ipynb
+*_backup*.ipynb
+.DS_Store
